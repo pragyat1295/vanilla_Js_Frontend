@@ -1,0 +1,95 @@
+button {
+    color: #fff;
+}
+
+
+/* ------------- The heading of the web page ---------------- */
+
+.head-text {
+    margin: 3% 0%;
+    font-weight: 700;
+    font-size: 5vh;
+    color: #fff;
+    /* background: linear-gradient(15deg, red, blue); */
+    background: #333;
+    padding: 1% 1%;
+    
+}
+
+/* =========================================================== */
+
+
+/* ------------------- The buttons part -------------------- */
+
+.decision-buttons {
+    margin-bottom: 3%;
+}
+
+/* =========================================================== */
+
+/* -------------------- The head of the table ----------- */
+
+.table-head {
+    color: #fff;
+    /* background: linear-gradient(45deg, red, blue); */
+    background: rgb(81, 80, 80);
+}
+
+/* #start {
+    background: #28a745;
+}
+
+#strt:disabled {
+    background: grey;
+    cursor: auto;
+}
+
+#stop {
+    background: #6c757d;
+}
+
+#stop:disabled {
+    background: gray;
+    cursor: auto;
+}
+
+
+#sort {
+    background: #17a2b8;
+}
+
+#sort:disabled {
+    background: gray;
+    cursor: auto;
+} */
+
+
+/* ======================================================= */
+
+
+/* ------------------------- Media Queries -------------------- */
+
+
+@media(max-width: 1200px) {
+    .head-text {
+        margin: 5% 0%;
+        font-size: 4vh;
+    }
+
+    .decision-buttons {
+        margin-bottom: 5%;
+    }
+}
+
+@media(max-width: 500px) {
+    .head-text {
+        margin: 10% 0%;
+        font-size: 3vh;
+    }
+
+    .decision-buttons {
+        margin-bottom: 10%;
+    }
+}
+
+/* =========================================================== */
